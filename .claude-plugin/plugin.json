@@ -1,0 +1,29 @@
+{
+  "name": "claudia-pigeon",
+  "version": "1.0.0",
+  "description": "Send messages, questions, and documents to your phone via push notification. Get replies without returning to the laptop.",
+  "author": {
+    "name": "ashrocket"
+  },
+  "repository": "https://github.com/ashrocket/claudia-pigeon-plugin",
+  "skills": ["skills/pigeon/SKILL.md"],
+  "commands": [
+    "commands/pigeon.md",
+    "commands/pigeon-setup.md",
+    "commands/pigeon-check.md"
+  ],
+  "hooks": {
+    "Stop": ["hooks/stop-notify.md"]
+  },
+  "env": {
+    "PIGEON_URL": {
+      "description": "Your Claudia Pigeon server URL",
+      "required": true
+    },
+    "PIGEON_API_KEY": {
+      "description": "API key for your Pigeon server",
+      "required": true,
+      "secret": true
+    }
+  }
+}

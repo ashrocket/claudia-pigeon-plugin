@@ -1,0 +1,7 @@
+# Pigeon Local Settings
+
+# Set to false to disable stop-hook notifications
+stop_notify: true
+
+# Set to true to also send via Gmail when available
+gmail_channel: false
