@@ -9,7 +9,10 @@
     {
       "name": "claudia-pigeon",
       "description": "Send messages, questions, and documents to your phone via push notification. Get replies without returning to the laptop.",
-      "source": ".",
+      "source": {
+        "source": "github",
+        "repo": "ashrocket/claudia-pigeon-plugin"
+      },
       "category": "productivity",
       "homepage": "https://github.com/ashrocket/claudia-pigeon-plugin"
     }
