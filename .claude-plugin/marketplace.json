@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claudia-pigeon",
+  "description": "Send messages, questions, and documents to your phone via push notification. Get replies without returning to the laptop.",
+  "owner": {
+    "name": "ashrocket"
+  },
+  "plugins": [
+    {
+      "name": "claudia-pigeon",
+      "description": "Send messages, questions, and documents to your phone via push notification. Get replies without returning to the laptop.",
+      "source": ".",
+      "category": "productivity",
+      "homepage": "https://github.com/ashrocket/claudia-pigeon-plugin"
+    }
+  ]
+}
